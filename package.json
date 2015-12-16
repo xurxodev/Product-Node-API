@@ -1,6 +1,10 @@
 {
   "name": "Catalog-API",
   "version": "0.0.1",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/xurxodev/Catalog-API"
+  },
   "dependencies": {
     "restify": "4.0.3"
   }
