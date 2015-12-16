@@ -3,7 +3,7 @@ Sample REST API written in Node.js catalog to show some of the best practices as
 
 ## Best practices used
 
-* MVC presentation Layer Pattern
+* MVC presentation layer pattern
 
 ## Libraries used on the sample project
 
