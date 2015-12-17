@@ -12,7 +12,14 @@ module.exports = class productController {
 
     post(req, res) {
 
-        let product = req.body;
+        var product = {
+            sku:   req.body.sku,
+            asin:  req.body.asin,
+            upc:   req.body.upc,
+            title: req.body.title,
+            image: req.body.image
+        };
+
 
         this.products.push(product);
 

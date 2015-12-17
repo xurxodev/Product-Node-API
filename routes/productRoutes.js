@@ -1,11 +1,11 @@
 "use strict"
 
-var knowronController = require('../controllers/productController.js');
+var productController = require('../controllers/productController.js');
 
 module.exports = class Routes {
     static register(server) {
 
-        const controller = new knowronController();
+        const controller = new productController();
 
         server.get('/api/products/', (req,res,next) =>
         {
