@@ -6,6 +6,7 @@
   , "url" : "https://github.com/xurxodev/Catalog-API"
   },
   "dependencies": {
-    "restify": "4.0.3"
+    "restify": "4.0.3",
+    "supertest":"1.1.0"
   }
 }
