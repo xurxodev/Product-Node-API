@@ -24,6 +24,62 @@ Sample REST API written in Node.js catalog to show some of the best practices as
 * `$ cd [your project path]`
 * `$ mocha`
 
+## Products endpoint
+
+* POST /api/products
+```http
+POST /api/products HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+Cache-Control: no-cache
+
+{
+    "sku": "ab48cicj36734",
+    "asin": "B015E8UTIU",
+    "upc": "888462500449",
+    "title": "Apple iPhone 6s 64 GB US Warranty Unlocked Cellphone - Retail Packaging (Rose Gold)",
+    "image": "http://ecx.images-amazon.com/images/I/91DpCeCgSBL._SL1500_.jpg"
+}
+```
+
+```http
+Http status code: 201
+Headers:
+Connection → keep-alive
+Content-Length → 29
+Content-Type → application/json
+Date → Thu, 24 Dec 2015 16:42:23 GMT
+Location → /api/products/ab48cicj36734
+```
+
+```http
+
+```
+* GET /api/products
+```http
+GET /api/products HTTP/1.1
+Host: localhost:8080
+```
+
+```http
+Http status code: 200
+Headers:
+Connection → keep-alive
+Content-Length → 233
+Content-Type → application/json
+Date → Thu, 24 Dec 2015 16:46:26 GMT
+
+[
+  {
+    "sku": "ab48cicj36734",
+    "asin": "B015E8UTIU",
+    "upc": "888462500449",
+    "title": "Apple iPhone 6s 64 GB US Warranty Unlocked Cellphone - Retail Packaging (Rose Gold)",
+    "image": "http://ecx.images-amazon.com/images/I/91DpCeCgSBL._SL1500_.jpg"
+  }
+]
+```
+
 ## Best practices used
 
 * MVC presentation layer pattern
