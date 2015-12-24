@@ -1,6 +1,29 @@
 # Catalog-API
 Sample REST API written in Node.js catalog to show some of the best practices as design patterns, testing and appropriate architecture.
 
+## Setup
+
+### Install Node.js and clone project
+
+* Download from [Node.js web](brew install node) or from brew for OSX `brew install node`
+* `git clone https://github.com/xurxodev/Catalog-API.git`
+
+### Install modules and mocha
+
+* `$ cd [your project path]`
+* `$ nmp install`
+* Install mocha globally `$ npm install -g mocha`
+
+### Run API REST
+
+* `$ cd [your project path]`
+* `$ node app.js`
+
+### Run Test running API REST previously
+
+* `$ cd [your project path]`
+* `$ mocha`
+
 ## Best practices used
 
 * MVC presentation layer pattern
