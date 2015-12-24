@@ -4,10 +4,12 @@ Sample REST API written in Node.js catalog to show some of the best practices as
 ## Best practices used
 
 * MVC presentation layer pattern
+* End to End Testing
 
 ## Libraries used on the sample project
 
 * [Restify](http://restify.com/)
+* [Mocha](https://mochajs.org/)
 
 Developed By
 ------------
