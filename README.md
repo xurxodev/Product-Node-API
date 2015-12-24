@@ -19,7 +19,7 @@ Sample REST API written in Node.js catalog to show some of the best practices as
 * `$ cd [your project path]`
 * `$ node app.js`
 
-### Run Test running API REST previously
+### Run tests running API REST previously
 
 * `$ cd [your project path]`
 * `$ mocha`
