@@ -43,13 +43,12 @@ Cache-Control: no-cache
 ```
 
 ```http
-Http status code: 201
-Headers:
-Connection → keep-alive
-Content-Length → 29
-Content-Type → application/json
-Date → Thu, 24 Dec 2015 16:42:23 GMT
-Location → /api/products/ab48cicj36734
+HTTP/1.1 201 Created
+Connection: keep-alive
+Content-Length: 29
+Content-Type: application/json
+Date: Thu, 24 Dec 2015 16:42:23 GMT
+Location: /api/products/ab48cicj36734
 ```
 
 ```http
@@ -62,12 +61,11 @@ Host: localhost:8080
 ```
 
 ```http
-Http status code: 200
-Headers:
-Connection → keep-alive
-Content-Length → 233
-Content-Type → application/json
-Date → Thu, 24 Dec 2015 16:46:26 GMT
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 233
+Content-Type: application/json
+Date: Thu, 24 Dec 2015 16:46:26 GMT
 
 [
   {
