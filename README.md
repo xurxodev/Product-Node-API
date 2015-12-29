@@ -1,5 +1,5 @@
-# Catalog-API
-Sample REST API written in Node.js catalog to show some of the best practices as design patterns, testing and appropriate architecture.
+# Product Node API
+Sample REST API written in Node.js to show some of the best practices as design patterns, testing and appropriate architecture.
 
 ## Setup
 
